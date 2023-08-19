@@ -47,11 +47,11 @@ def get_weather_data_city(city, dt):
 def get_weather_data_city_list(cityList):
 
     datos_relevantes = {
-        "Ciudad": [],
-        "Dia": [],
-        "Temperatura": [],
-        "Humedad": [],
-        "Descripcion": []
+        "ciudad": [],
+        "dia": [],
+        "temperatura": [],
+        "humedad": [],
+        "descripcion": []
     }
 
     #Recorrer Array de Ciudades
@@ -67,22 +67,22 @@ def get_weather_data_city_list(cityList):
             data = get_weather_data_city(city, dt2)
             if data is not None:
                 # Seleccionar los campos relevantes del JSON
-                datos_relevantes["Ciudad"].append(city)
-                datos_relevantes["Dia"].append(datetime.datetime.fromtimestamp(dt2).strftime('%Y-%m-%d'))
-                datos_relevantes["Temperatura"].append(data['current']['temp'])
-                datos_relevantes["Humedad"].append(data['current']['humidity'])
-                datos_relevantes["Descripcion"].append(data['current']['weather'][0]['description'])           
+                datos_relevantes["ciudad"].append(city)
+                datos_relevantes["dia"].append(datetime.datetime.fromtimestamp(dt2).strftime('%Y-%m-%d'))
+                datos_relevantes["temperatura"].append(data['current']['temp'])
+                datos_relevantes["humedad"].append(data['current']['humidity'])
+                datos_relevantes["descripcion"].append(data['current']['weather'][0]['description'])           
 
     return datos_relevantes
 
 def get_weather_data_coord_list(coordList):
 
     datos_relevantes = {
-        "Ciudad": [],
-        "Dia": [],
-        "Temperatura": [],
-        "Humedad": [],
-        "Descripcion": []
+        "ciudad": [],
+        "dia": [],
+        "temperatura": [],
+        "humedad": [],
+        "descripcion": []
     }
 
     #Recorrer Array de Coordenadas
@@ -98,11 +98,11 @@ def get_weather_data_coord_list(coordList):
             data = get_weather_data_coord(coord, dt2)
             if data is not None:
                 # Seleccionar los campos relevantes del JSON
-                datos_relevantes["Ciudad"].append(get_nombre_ciudad_by_coord(coord))
-                datos_relevantes["Dia"].append(datetime.datetime.fromtimestamp(dt2).strftime('%Y-%m-%d'))
-                datos_relevantes["Temperatura"].append(data['current']['temp'])
-                datos_relevantes["Humedad"].append(data['current']['humidity'])
-                datos_relevantes["Descripcion"].append(data['current']['weather'][0]['description'])           
+                datos_relevantes["ciudad"].append(get_nombre_ciudad_by_coord(coord))
+                datos_relevantes["dia"].append(datetime.datetime.fromtimestamp(dt2).strftime('%Y-%m-%d'))
+                datos_relevantes["temperatura"].append(data['current']['temp'])
+                datos_relevantes["humedad"].append(data['current']['humidity'])
+                datos_relevantes["descripcion"].append(data['current']['weather'][0]['description'])           
 
     return datos_relevantes
 
