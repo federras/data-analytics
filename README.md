@@ -35,16 +35,16 @@ El proyecto consta de los siguientes pasos:
 
 1. Clona este repositorio en tu máquina local si no lo hiciste antes, luego accede a la carpeta Level_2
 
-   cd Level_2
+       cd Level_2
 
 2.  Crea un entorno virtual (opcional pero recomendado):
 
-    python3 -m venv venv
-    source venv/bin/activate
+        python3 -m venv venv
+        source venv/bin/activate
 
 4.  Instala las dependencias del proyecto desde el archivo requirements.txt:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
     
 ### 2. Extracción y Almacenamiento en CSV
 
@@ -79,16 +79,16 @@ Repetiremos los pasos por si querés directamente correr este nivel:
 
 1. Clona este repositorio en tu máquina local si no lo hiciste antes, luego accede a la carpeta Level_2
 
-   cd Level_3
+       cd Level_3
 
 2.  Crea un entorno virtual:
 
-    python3 -m venv venv
-    source venv/bin/activate
+        python3 -m venv venv
+        source venv/bin/activate
 
 4.  Instala las dependencias del proyecto desde el archivo requirements.txt:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
     
 ### 2. Extracción y Almacenamiento en CSV
 
