@@ -1,3 +1,5 @@
+Este es un proyecto realizado como trabajo final para Data Analytics del Informatorio. Consta de 3 Niveles de dificultad creciente. Se separaron los distintos niveles en carpetas separadas.
+
 # LEVEL 1
 Este pequeño proyecto demuestra cómo extraer el clima actual de distintas ciudadades y de coordenadas cargadas de dos arrays, y almacenarlos localmente en un archivo .csv. Para esto usaremos la API de openweathermap.org.
 
