@@ -4,7 +4,7 @@ Este pequeño proyecto demuestra cómo extraer el clima actual de distintas ciud
 ### Instalación
 Clona este repositorio en tu máquina local
 
-    git clone https://github.com/tu-usuario/tu-proyecto.git
+    git clone https://github.com/federras/data-analytics.git
     cd Level_1
 
 ### Configuración de la API de OpenWeatherMap
@@ -33,9 +33,8 @@ El proyecto consta de los siguientes pasos:
 
 ### 1. Instalación
 
-1. Clona este repositorio en tu máquina local. Si ya lo tenías clonado, salteate la primera linea y cambiá de carpeta a Level_2
+1. Clona este repositorio en tu máquina local si no lo hiciste antes, luego accede a la carpeta Level_2
 
-   git clone https://github.com/tu-usuario/tu-proyecto.git
    cd Level_2
 
 2.  Crea un entorno virtual (opcional pero recomendado):
@@ -78,9 +77,8 @@ Repetiremos los pasos por si querés directamente correr este nivel:
 
 ### 1. Instalación
 
-1. Clona este repositorio en tu máquina local. Si ya lo tenías clonado, salteate la primera linea y cambiá de carpeta a Level_3
+1. Clona este repositorio en tu máquina local si no lo hiciste antes, luego accede a la carpeta Level_2
 
-   git clone https://github.com/tu-usuario/tu-proyecto.git
    cd Level_3
 
 2.  Crea un entorno virtual:
