@@ -1,10 +1,12 @@
+Este es un proyecto realizado como trabajo final para Data Analytics del Informatorio. Consta de 3 Niveles de dificultad creciente. Se separaron los distintos niveles en carpetas separadas.
+
 # LEVEL 1
 Este pequeño proyecto demuestra cómo extraer el clima actual de distintas ciudadades y de coordenadas cargadas de dos arrays, y almacenarlos localmente en un archivo .csv. Para esto usaremos la API de openweathermap.org.
 
 ### Instalación
 Clona este repositorio en tu máquina local
 
-    git clone https://github.com/tu-usuario/tu-proyecto.git
+    git clone https://github.com/federras/data-analytics.git
     cd Level_1
 
 ### Configuración de la API de OpenWeatherMap
@@ -33,19 +35,18 @@ El proyecto consta de los siguientes pasos:
 
 ### 1. Instalación
 
-1. Clona este repositorio en tu máquina local. Si ya lo tenías clonado, salteate la primera linea y cambiá de carpeta a Level_2
+1. Clona este repositorio en tu máquina local si no lo hiciste antes, luego accede a la carpeta Level_2
 
-   git clone https://github.com/tu-usuario/tu-proyecto.git
-   cd Level_2
+       cd Level_2
 
 2.  Crea un entorno virtual (opcional pero recomendado):
 
-    python3 -m venv venv
-    source venv/bin/activate
+        python3 -m venv venv
+        source venv/bin/activate
 
-3.  Instala las dependencias del proyecto desde el archivo requirements.txt:
+4.  Instala las dependencias del proyecto desde el archivo requirements.txt:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
     
 ### 2. Extracción y Almacenamiento en CSV
 
@@ -78,19 +79,18 @@ Repetiremos los pasos por si querés directamente correr este nivel:
 
 ### 1. Instalación
 
-1. Clona este repositorio en tu máquina local. Si ya lo tenías clonado, salteate la primera linea y cambiá de carpeta a Level_3
+1. Clona este repositorio en tu máquina local si no lo hiciste antes, luego accede a la carpeta Level_2
 
-   git clone https://github.com/tu-usuario/tu-proyecto.git
-   cd Level_3
+       cd Level_3
 
 2.  Crea un entorno virtual:
 
-    python3 -m venv venv
-    source venv/bin/activate
+        python3 -m venv venv
+        source venv/bin/activate
 
-3.  Instala las dependencias del proyecto desde el archivo requirements.txt:
+4.  Instala las dependencias del proyecto desde el archivo requirements.txt:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
     
 ### 2. Extracción y Almacenamiento en CSV
 
